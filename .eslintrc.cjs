@@ -43,6 +43,7 @@ module.exports = {
   },
   ignorePatterns: ['.eslintrc.cjs', 'vite.config.ts', '**/node_modules/**/*.js'],
   rules: {
+    "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
     semi: 'off',
     quotes: ['error', 'single'],
     camelcase: 'off',
